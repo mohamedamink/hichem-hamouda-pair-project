@@ -1,1 +1,62 @@
-ff
+
+.navbar h1 {float:left;}
+.navbar h1 span {color:beige;}
+
+.navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+}
+
+.navbar ul li{
+	float:left;
+	padding:10px;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container{
+	height: 50vh;
+	width: 100%;
+	background-image: url("img pro/bg2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 5s;
+
+
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out; 
+}
+
+@keyframes animate{
+	0%{
+		background-image: url("img pro/bg3.jpg");
+	}20%{
+		background-image: url("img pro/bg4.jpg");
+	}40%{
+		background-image: url("img pro/bg5.jpg");
+	}60%{
+		background-image: url("img pro/bg6.jpg");
+	}80%{
+		background-image: url("img pro/bg7.jpg");
+	}100%{
+		background-image: url("img pro/bg2.jpg");
+	}
+}
