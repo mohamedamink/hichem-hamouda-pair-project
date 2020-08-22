@@ -1,44 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<title>Change Background Image</title>
-<style>
+  <meta charset="utf-8">
 
-</style>
+
+	<title>Change Background Image</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
 
 </head>
 <body>
    <div class="header">
 
           <div class="navbar">
-            
+            <div class="container">
               <h1>Travel<span> Discover</span></h1>
               <ul>
-                <li><a href="project.html">about us</a></li>
-                <li><a href="playersbio.html">booking</a></li>
-                
-    
+                <li><a href="about_us.html" target="_blank">About Us</a></li>
+                <li><a href="https://www.booking.com/index.fr.html" target="_blank">Booking</a></li>
+                <li><a href="#Forum">Forum</a></li>
               </ul>
             </div>
           </div>
         </div>
    <div>
 
+  <div class="container3"></div>
    <div class="main">
-  
-	<div class="container">
- Travel Discover Travel Agency, 10 rue de la liberté Tunis Tel +216 71 123 255 
-		</div> 
 
+ <div class="container2">
+        <img src="world1.jpg" width="1300px" height="835px" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_blank" alt="Egypt"     title="Egypt" href="#" coords="157,607,38" shape="circle">
+    <area target="_blank" alt="Thailand"  title="Thailand" href="#" coords="175,505,55" shape="circle">
+    <area target="_blank" alt="Peru"      title="Peru" href="#" coords="301,570,53" shape="circle">
+    <area target="_blank" alt="Italy"     title="Italy" href="#" coords="390,462,42" shape="circle">
+    <area target="_blank" alt="Brazil"    title="Brazil" href="#" coords="445,494,482,395" shape="rect">
+    <area target="_blank" alt="China"     title="China" href="#" coords="524,551,64" shape="circle">
+    <area target="_blank" alt="England"     title="England" href="#" coords="633,400,687,583" shape="rect">
+    <area target="_blank" alt="France"    title="France" href="#" coords="755,466,719,330" shape="rect">
+    <area target="_blank" alt="USA"       title="USA" href="#" coords="933,608,869,404" shape="rect">
+    <area target="_blank" alt="India"     title="India" href="#" coords="1008,484,1170,603" shape="rect">
+    <area target="_blank" alt="Tunisia"     title="Tunisia" href="#" coords="883,256,794,137" shape="rect">
+</map>
+
+
+</div>
+
+
+    <p  id="dest" class="font_title">SPECIAL OFFER 10% OFF FOR EUROP TRAVEL FOR COUPLE</p>
+    <img id="dest_img" src="https://conflict-news.com/wp-content/uploads/2020/04/trav2.jpg" class="img_country"></div>
+    <p id="dest_desc" class="font_desc">TRAVEL ALL OVER THE WORLD WITH THE BEST PRICE EVER</p>
+  
+      <p id="dest_price" class="font_desc"> FROM 1000$ PER WEEK</p>
+
+
+<br><br>
+<div class="style_forum">
+
+    <h2 id='Forum'>Forum for Questions</h2>
+
+    <form action="#" id="forum">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" ><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" ><br><br>
+      <label for="comm">Your comment:</label><br>
+      <textarea id="myText" name="Text1" cols="40" rows="5" name="comm"></textarea><br> 
+      <div class="defaultDisplay">
+        <input type="button" value="Comment" id="comment_now">
+      </div>
+    </form>  
+</div>
+<br><br>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
-
-
-
-
-
-
+<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
 </body>
+<footer>
+  
+  <div >
+ Travel Discover Travel Agency, 10 rue de la liberté Tunis Tel +216 71 123 255 
+    </div> 
+</footer>
 </html>
